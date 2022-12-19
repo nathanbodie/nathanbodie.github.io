@@ -1,0 +1,50 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+a {
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+	text-decoration: inherit;
+	padding: 2rem 0px 2rem 0px;
+}
+
+.logo {
+	padding: 16px 32px;
+}
+
+.logoImg {
+	max-height: 100px;
+}
+
+.button {
+	font-weight: 700;
+	width: 25em;
+	height: 5em;
+	border: solid;
+	background-color: #242424;
+	border-color: #f40b41;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+.button:hover {
+	background-color: #f40b41;
+}
+
+.buttons {
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
